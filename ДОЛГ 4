@@ -1,0 +1,5 @@
+for a in range(8, 22):
+    print(a)
+b = 2
+while b <=13:
+    b += 4

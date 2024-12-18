@@ -1,0 +1,4 @@
+import math
+a = int(input('Ввидите перворе число:'))
+b = int(input('Ввидите второе число:'))
+print(math.gcd(a, b))

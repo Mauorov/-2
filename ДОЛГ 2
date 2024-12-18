@@ -1,0 +1,28 @@
+#фукция вычитает два числа
+def numbers_sum(a, b):
+    return a - b
+print(numbers_sum(1, 2))
+#функция делает из заглавных букв строчные
+def str_low(int_str):
+    return int_str.upper()
+a = "HELLO, DENIS!"
+b = str_low(a)
+print(b)
+#разварот строк
+def sorting_list(lt):
+    return lt.reverse()
+s = [1,2,3,4,5,6,7,8,9,10]
+sorting_list(s)
+print(s)
+#добавляет элементы
+def dict_upd(dictionary):
+     return dictionary.update({"v": 3})
+new = {"g": 1}
+dict_upd(new)
+print(new)
+#пишет элементы в сете и кортежах
+def cunt(stturple):
+    return len(stturple)
+ag = {'d','e','r','f'}
+cunt(ag)
+print(ag)
